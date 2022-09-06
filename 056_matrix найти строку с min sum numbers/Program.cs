@@ -8,7 +8,6 @@
 
 Console.Clear();
 
-
 int rows = InputNumber("Введите количество строк массива: ");
 int columns = InputNumber("Введите количество столбцов массива: ");
 
@@ -32,11 +31,11 @@ void RowMinSumNum(int[,] matr)
         {
             sum = sum + matr[i, j];
         }
-        //Console.WriteLine($"Сумма {i+1} строки = {sum}");  // проверял суммы строк
+        Console.WriteLine($"Сумма {i+1} строки = {sum}");  // проверял суммы строк
         if(sum < minSum)
         {
             minSum = sum;
-            numRow++;
+            numRow = i+1;
         }
         sum = 0;                                            // пока не обнулил не понимал почему не правильно считает строки
     }

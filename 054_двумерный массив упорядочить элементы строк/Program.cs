@@ -10,7 +10,6 @@
 
 Console.Clear();
 
-
 int rows = InputNumber("Введите количество строк массива: ");
 int columns = InputNumber("Введите количество столбцов массива: ");
 
