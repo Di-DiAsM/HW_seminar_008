@@ -17,7 +17,6 @@ PrintMatrix(matrix);
 Console.WriteLine();
 RowMinSumNum(matrix);
 
-
 //***********************************************************************************************
 
 void RowMinSumNum(int[,] matr)
